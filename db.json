@@ -1,0 +1,33 @@
+{
+  "compa": [
+    {
+      "id": 1,
+      "name": "Foo Company 1"
+    },
+	 {
+      "id": 2,
+      "name": "Foo Enterprise 2"
+    },
+	{
+      "id": 3,
+      "name": "Hello Company 3"
+    }
+  ],
+  "account":  [ 
+	  {
+		"userid": 1,
+		"username": "Jack",
+		"pass": "giacomo"	
+	   },
+	   {
+		"userid": 2,
+		"username": "John",
+		"pass": "giovanni"	
+	   },
+	   {
+		"userid": 3,
+		"username": "Mark",
+		"pass": "marco"	
+	   }	   
+  ]
+}
