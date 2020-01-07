@@ -1,0 +1,165 @@
+{
+  "compa": [
+	{
+	  "id_compa": 1,
+	  "name": "Foo Company 1"
+	},
+	 {
+	  "id_compa": 2,
+	  "name": "Foo Enterprise 2"
+	},
+	{
+	  "id_compa": 3,
+	  "name": "Hello Company 3"
+	}
+	],
+  "account":  [ 
+	   {
+		"id_user": 1,
+		"id_compa": 1,
+		"username": "Jack",
+		"pass": "giacomo"	
+	   },
+	   {
+		"id_user": 2,
+		"id_compa": 2,
+		"username": "John",
+		"pass": "giovanni"	
+	   },
+	   {
+		"id_user": 3,
+		"id_coma": 3,
+		"username": "Mark",
+		"pass": "marco"	
+	   },
+	   {
+		"id_user": 4,
+		"id_compa": 1,
+		"username": "Kevin",
+		"pass": "calvino"	
+	   },
+	   {
+		"id_user": 5,
+		"id_compa": 2,
+		"username": "Richard",
+		"pass": "riccardo"	
+	   },
+		
+	],
+  "subscription" : 
+	[
+		{
+			"id_subscription": 1,
+			"id_compa": 1,
+			"description" : "Software Base license for Foo Company 1",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		}
+		{
+			"id_subscription": 2,
+			"id_compa": 1,
+			"description" : "Software Advanced license for Foo Company 1",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		},
+		{
+			"id_subscription": 3,
+			"id_compa": 1,
+			"description" : "Data Integration Service for Foo Company 1"",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		},
+		{
+			"id_subscription": 4,
+			"id_compa": 2,
+			"description" : "Software Base license for Enterprise 2"",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		},
+		{
+			"id_subscription": 5,
+			"id_compa": 3,
+			"description" : "Software Advanced license for Hello Company 3""",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		},
+		{
+			"id_subscription": 6,
+			"id_compa": 3,
+			"description" : "Data Integration Service for Hello Company 3",
+			"subscription_date" : "2019-06-01",
+			"duedate": "2020-06-01"
+		}
+	],
+  "ticket_service":
+	[
+		{
+			"id_ticket_service": 1,
+			"description": "Remote Support",
+			"price": 40.00,
+			"timeunit" : "hh",
+		},
+		{
+			"id_ticket_service": 2,
+			"description": "OnSite Support",
+			"price": 70.00,
+			"timeunit" : "hh",
+		}
+	],
+	"ticket":
+	[
+		{
+			"id_ticket": 1,
+			"id_ticket_service": 1,
+			"status" = "closed",
+			"open_date": "2019-10-29 10:35:40",
+			"clode_date": "2019-10-29 11:49:53";
+			"id_compa": 2,
+			"id_user": 2,
+			"req_description": "Problema di accesso al gestionale: la password risulta scaduta ma non riesco a reimpostarla",
+			"task_description": "Il problema si è verificato a seguito di 3 fallitit tentativi di cambio password, contattato il lciente teleofnicamente e sbloccato l'account",
+			"time": 1,
+			"id_support_agent" : 5,
+		},
+		{
+			"id_ticket": 2,
+			"id_ticket_service": 1,
+			"status" = "closed",
+			"open_date": "2019-11-15 17:45:49",
+			"clode_date": "2019-11-16 10:09:29",
+			"id_compa": 1,
+			"id_user": 1,
+			"req_description": "Errore su visualizzazione contatti",
+			"task_description": "Problema dovuto ad aggiornamento mancante, installata l'ultima release",
+			"time": 1,
+			"id_support_agent" : 8,
+		},
+		{
+			"id_ticket": 3,
+			"id_ticket_service": 1,
+			"status" = "open",
+			"open_date": "2019-11-15 17:45:49",
+			"clode_date": null,
+			"id_compa": 2,
+			"id_user": 2,
+			"req_description": "Errore su visualizzazione articoli",
+			"task_description": null,
+			"time": null,
+			"id_support_agent" : null,
+		},
+			{
+			"id_ticket": 4,
+			"id_ticket_service": 2,
+			"status" = "open",
+			"open_date": "2019-12-15 12:35:49",
+			"clode_date": null,
+			"id_compa": 3,
+			"id_user": 3,
+			"req_description": "Problema sulla rete locale",
+			"task_description": null,
+			"time": null,
+			"id_support_agent" : null,
+		}
+		
+	]
+}
