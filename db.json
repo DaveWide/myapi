@@ -45,51 +45,6 @@
 		"pass": "riccardo"	
 	   },
 		
-	],
-  "subscription" : 
-	[
-		{
-			"id_subscription": 1,
-			"id_compa": 1,
-			"description" : "Software Base license for Foo Company 1",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		},
-		{
-			"id_subscription": 2,
-			"id_compa": 1,
-			"description" : "Software Advanced license for Foo Company 1",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		},
-		{
-			"id_subscription": 3,
-			"id_compa": 1,
-			"description" : "Data Integration Service for Foo Company 1",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		},
-		{
-			"id_subscription": 4,
-			"id_compa": 2,
-			"description" : "Software Base license for Enterprise 2",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		},
-		{
-			"id_subscription": 5,
-			"id_compa": 3,
-			"description" : "Software Advanced license for Hello Company 3",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		},
-		{
-			"id_subscription": 6,
-			"id_compa": 3,
-			"description" : "Data Integration Service for Hello Company 3",
-			"subscription_date" : "2019-06-01",
-			"duedate": "2020-06-01"
-		}
 	]
   
 }
