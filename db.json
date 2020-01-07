@@ -99,13 +99,13 @@
 			"id_ticket_service": 1,
 			"description": "Remote Support",
 			"price": 40.00,
-			"timeunit" : "hh",
+			"timeunit" : "hh"
 		},
 		{
 			"id_ticket_service": 2,
 			"description": "OnSite Support",
 			"price": 70.00,
-			"timeunit" : "hh",
+			"timeunit" : "hh"
 		}
 	]
   
