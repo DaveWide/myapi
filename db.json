@@ -113,7 +113,7 @@
 			"id_ticket_service": 1,
 			"status" = "closed",
 			"open_date": "2019-10-29 10:35:40",
-			"clode_date": "2019-10-29 11:49:53";
+			"clode_date": "2019-10-29 11:49:53",
 			"id_compa": 2,
 			"id_user": 2,
 			"req_description": "Problema di accesso al gestionale: la password risulta scaduta ma non riesco a reimpostarla",
