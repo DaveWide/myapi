@@ -28,7 +28,7 @@
 	   },
 	   {
 		"id_user": 3,
-		"id_coma": 3,
+		"id_compa": 3,
 		"username": "Mark",
 		"pass": "marco"	
 	   },
@@ -43,7 +43,7 @@
 		"id_compa": 2,
 		"username": "Richard",
 		"pass": "riccardo"	
-	   },
+	   }
 		
 	]
   
