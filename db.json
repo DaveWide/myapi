@@ -1,17 +1,17 @@
 {
   "compa": [
-	{
-	  "id_compa": 1,
-	  "name": "Foo Company 1"
-	},
-	 {
-	  "id_compa": 2,
-	  "name": "Foo Enterprise 2"
-	},
-	{
-	  "id_compa": 3,
-	  "name": "Hello Company 3"
-	}
+		{
+			  "id_compa": 1,
+			  "name": "Foo Company 1"
+		},
+		 {
+			  "id_compa": 2,
+			  "name": "Foo Enterprise 2"
+		},
+		{
+			  "id_compa": 3,
+			  "name": "Hello Company 3"
+		}
 	],
   "account":  [ 
 	   {
@@ -65,21 +65,21 @@
 		{
 			"id_subscription": 3,
 			"id_compa": 1,
-			"description" : "Data Integration Service for Foo Company 1"",
+			"description" : "Data Integration Service for Foo Company 1",
 			"subscription_date" : "2019-06-01",
 			"duedate": "2020-06-01"
 		},
 		{
 			"id_subscription": 4,
 			"id_compa": 2,
-			"description" : "Software Base license for Enterprise 2"",
+			"description" : "Software Base license for Enterprise 2",
 			"subscription_date" : "2019-06-01",
 			"duedate": "2020-06-01"
 		},
 		{
 			"id_subscription": 5,
 			"id_compa": 3,
-			"description" : "Software Advanced license for Hello Company 3""",
+			"description" : "Software Advanced license for Hello Company 3",
 			"subscription_date" : "2019-06-01",
 			"duedate": "2020-06-01"
 		},
@@ -147,7 +147,7 @@
 			"time": null,
 			"id_support_agent" : null,
 		},
-			{
+		{
 			"id_ticket": 4,
 			"id_ticket_service": 2,
 			"status" = "open",
