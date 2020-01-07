@@ -90,6 +90,23 @@
 			"subscription_date" : "2019-06-01",
 			"duedate": "2020-06-01"
 		}
+	],
+
+
+"ticket_service":
+	[
+		{
+			"id_ticket_service": 1,
+			"description": "Remote Support",
+			"price": 40.00,
+			"timeunit" : "hh",
+		},
+		{
+			"id_ticket_service": 2,
+			"description": "OnSite Support",
+			"price": 70.00,
+			"timeunit" : "hh",
+		}
 	]
   
 }
