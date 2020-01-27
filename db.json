@@ -1,5 +1,5 @@
 {
-"dtoName" : "PromozioneContract"
+"dtoName" : "PromozioneContract",
 "data" :
 	[ 
 	   { 
@@ -205,7 +205,7 @@
 
 
 {
-"dtoName" : "LoyaltyContract"
+"dtoName" : "LoyaltyContract",
 "data" :
 	[ 
 	   { 
