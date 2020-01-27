@@ -1,8 +1,5 @@
 {
-"guiContract1": {
-"dtoName" : "PromozioneContract",
-"data" :
-	[ 
+"PromozioneContract" : [ 
 	   { 
 		  "ApplicationDtoPropertyId":0,
 		  "Name":"id",
@@ -201,13 +198,8 @@
 		  "NavPropName":null,
 		  "DataMask":null
 	   }
-	]
-},
-
-
-"guiContract2" : {
-"dtoName" : "LoyaltyContract",
-"data" :
+	],
+"LoyaltyContract" :
 	[ 
 	   { 
 		  "ApplicationDtoPropertyId":0,
@@ -409,5 +401,5 @@
 	   }
 
 	]
-}
+
 }
