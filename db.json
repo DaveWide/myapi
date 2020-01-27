@@ -1,5 +1,5 @@
 {
-1: {
+"guiContract1": {
 "dtoName" : "PromozioneContract",
 "data" :
 	[ 
@@ -205,7 +205,7 @@
 },
 
 
-2 : {
+"guiContract2" : {
 "dtoName" : "LoyaltyContract",
 "data" :
 	[ 
