@@ -1,4 +1,5 @@
 {
+1: {
 "dtoName" : "PromozioneContract",
 "data" :
 	[ 
@@ -201,10 +202,10 @@
 		  "DataMask":null
 	   }
 	]
-}
+},
 
 
-{
+2 : {
 "dtoName" : "LoyaltyContract",
 "data" :
 	[ 
@@ -408,4 +409,5 @@
 	   }
 
 	]
+}
 }
